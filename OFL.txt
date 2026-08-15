@@ -1,0 +1,10 @@
+Copyright 2026 Seocho Batang Project Contributors.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://openfontlicense.org
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+(전문은 https://openfontlicense.org 참조. 요지: 자유로운 사용·수정·재배포 허용,
+폰트 단독 판매 금지, 파생물은 동일 라이선스, 원 저작자 표기 유지.)
