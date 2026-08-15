@@ -1,0 +1,54 @@
+name: 글자 표시 오류 신고
+description: 특정 글자가 깨지거나 이상하게 보일 때
+title: "[글자] "
+labels: ["glyph-bug"]
+body:
+  - type: input
+    id: chars
+    attributes:
+      label: 문제가 있는 글자
+      description: 이상하게 보이는 글자를 그대로 적어 주세요 (여러 자 가능)
+      placeholder: "예: 뷁, ⑮"
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: 사용 환경
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - HWP(한글)
+        - MS Word
+        - Google Docs
+        - 웹(WOFF2)
+        - 기타(아래에 설명)
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: 글자 크기
+      placeholder: "예: 12pt (화면에서 / 인쇄에서)"
+  - type: textarea
+    id: detail
+    attributes:
+      label: 증상 설명
+      description: 어떻게 이상한지 적어 주세요 (획이 끊김, 잔점이 보임, 겹침, 위치 이상 등)
+    validations:
+      required: true
+  - type: textarea
+    id: shot
+    attributes:
+      label: 스크린샷
+      description: 문제 글자가 보이는 화면을 캡처해 붙여 주세요 (드래그 앤 드롭 가능)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 폰트 버전
+      description: Releases에서 받은 버전
+      placeholder: "예: v1.0"

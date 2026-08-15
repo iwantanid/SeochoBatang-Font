@@ -1,0 +1,40 @@
+name: 설치·호환 문제
+description: 설치가 안 되거나, 특정 프로그램에서 폰트가 적용되지 않을 때
+title: "[설치] "
+labels: ["install"]
+body:
+  - type: dropdown
+    id: os
+    attributes:
+      label: 운영체제
+      options:
+        - Windows 10
+        - Windows 11
+        - macOS
+        - Linux
+        - 기타(아래에 설명)
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: 사용하려는 프로그램
+      placeholder: "예: MS Word 2021, HWP 2020, 크롬 브라우저"
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 증상 설명
+      description: 어떤 단계에서 무엇이 안 되는지, 오류 메시지가 있다면 함께 적어 주세요
+    validations:
+      required: true
+  - type: textarea
+    id: shot
+    attributes:
+      label: 스크린샷 (선택)
+  - type: input
+    id: version
+    attributes:
+      label: 폰트 버전
+      placeholder: "예: v1.0"

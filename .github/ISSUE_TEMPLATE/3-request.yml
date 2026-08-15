@@ -1,0 +1,21 @@
+name: 개선 요청·문의
+description: 기능 제안(볼드체 등), 라이선스 문의, 기타 의견
+title: "[요청] "
+labels: ["request"]
+body:
+  - type: textarea
+    id: detail
+    attributes:
+      label: 내용
+      description: 제안이나 문의를 자유롭게 적어 주세요
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 분류
+      options:
+        - 기능 제안 (굵기 추가 등)
+        - 라이선스 문의
+        - 기호·특수문자 추가 요청
+        - 기타
