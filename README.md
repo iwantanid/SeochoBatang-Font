@@ -7,6 +7,8 @@
 취했습니다. 한글 완성형 11,172자 전체와 판결문에 쓰이는 기호
 (원문자 ①~㉟, 낫표 「」, 참고표 ※, 단위 ㎡ 등)를 수록했습니다.
 
+**공식 배포 페이지**: [casedock.cloud/font](https://casedock.cloud/font) — 실시간 미리보기 · 원클릭 다운로드
+
 ![법률문서 샘플](images/sample_document.png)
 
 ## 왜 서초바탕인가
@@ -31,7 +33,7 @@
 
 ## 설치
 
-[Releases](../../releases)에서 최신 버전을 내려받으세요.
+[공식 배포 페이지](https://casedock.cloud/font) 또는 [Releases](../../releases)에서 최신 버전을 내려받으세요.
 
 | OS | 방법 |
 |---|---|
